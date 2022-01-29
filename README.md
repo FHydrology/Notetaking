@@ -7,3 +7,21 @@ Notetaking
 work related
 finance
 university 
+
+# Notetaking
+
+## Civil Engineering 
+⋅⋅* Hydrology
+⋅⋅* Hydraulics
+⋅⋅* Other Disciplines
+⋅⋅* Resources
+
+## Personal Finance
+⋅⋅* Portfolio
+⋅⋅* Budgeting 
+⋅⋅* Articles and other resources
+## University
+⋅⋅* Concrete Structures
+⋅⋅* Structural Engineering
+
+## Statistics
