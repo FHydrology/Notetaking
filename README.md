@@ -4,6 +4,6 @@ Archived version of notes derived from subjects learnt.
 Layout structure:
 Notetaking
 
-work relat ed
+work related
 finance
 university 
