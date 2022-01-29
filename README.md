@@ -10,18 +10,27 @@ university
 
 # Notetaking
 
-## Civil Engineering 
-⋅⋅* Hydrology
-⋅⋅* Hydraulics
-⋅⋅* Other Disciplines
-⋅⋅* Resources
+### Civil Engineering 
+* Hydrology
+* Hydraulics
+* Other Disciplines
+* Resources
 
-## Personal Finance
-⋅⋅* Portfolio
-⋅⋅* Budgeting 
-⋅⋅* Articles and other resources
-## University
-⋅⋅* Concrete Structures
-⋅⋅* Structural Engineering
+### Personal Finance
+* Portfolio
+* Budgeting 
+* Articles and other resources
 
-## Statistics
+### University
+* Concrete Structures
+* Structural Engineering
+
+### Literature
+* Reading List
+
+
+### Statistics
+* Theory
+* Excel
+
+
