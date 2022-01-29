@@ -1,20 +1,10 @@
 # Notetaking
-Archived version of notes derived from subjects learnt.
-
-Layout structure:
-Notetaking
-
-work related
-finance
-university 
-
-# Notetaking
 
 ### Civil Engineering 
 * Hydrology
 * Hydraulics
 * Other Disciplines
-* Resources
+* Grifting
 
 ### Personal Finance
 * Portfolio
@@ -27,10 +17,12 @@ university
 
 ### Literature
 * Reading List
-
+* Resources
 
 ### Statistics
 * Theory
 * Excel
 
+###Health
+* General 
 
