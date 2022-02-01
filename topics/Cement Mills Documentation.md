@@ -21,4 +21,4 @@ watershed (sub-watershed or catchment) boundaries are based on the topography of
 ![Cement Mills Catchment](https://github.com/FHydrology/Notetaking/blob/main/images/Catchment-Delineation.png)
 
 #### Cement Mills Subcatchment on Satellite Data:
-![Cement Mills Subcatchment](https://github.com/FHydrology/Notetaking/blob/main/images/satellite.png)
+![Cement Mills Subcatchment](https://github.com/FHydrology/Notetaking/blob/main/images/satellite.PNG)
