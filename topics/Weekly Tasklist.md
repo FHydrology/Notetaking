@@ -6,7 +6,7 @@
 - [x] Format the report correctly with proper ID and spacing.
   - [ ] Change the report from preliminary to detailed design 50% in all of the relevant sections.
   - [ ] Ask Rasitha for the Entire Catchment Polygon.
-  - [ ] Remove all mentions of the School aspect of report and re-write relevant sections.
+  - [ ] Remove all mentions of the School/Preliminary aspect of report and re-write relevant sections.
 - [ ] Receive Culvert Survey from James along with ask questions regarding report. 
 - [ ] Finalize report with figures and incorprate comments into HADR.
 
