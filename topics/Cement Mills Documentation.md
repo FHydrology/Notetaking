@@ -6,4 +6,4 @@
 - The outlet was determined to be at the downstream section of the bridge. 
 - The catchment was subdivided into 5 different sections. **However this is subject to change dependent on Evan's advice.**
 
-[[https://github.com/FHydrology/Notetaking/blob/main/images/Catchment-Delineation.png|alt=octocat]]
+![foxdemo](https://github.com/foxdemo/foxdemo.github.io/blob/master/assets/images/avatar.png)
