@@ -6,4 +6,4 @@
 - The outlet was determined to be at the downstream section of the bridge. 
 - The catchment was subdivided into 5 different sections. **However this is subject to change dependent on Evan's advice.**
 
-[Cement Mills Catchment Sim Delineation, Outlet at Bridge Boundary]: https://github.com/FHydrology/Notetaking/blob/main/pictures/CM%20Catchment%20Delineation.PNG "Catchment"
+[Cement Mills Catchment Sim Delineation, Outlet at Bridge Boundary]: https://github.com/FHydrology/Notetaking/blob/main/pictures/CM%20Catchment%20Delineation.png "Catchment"
