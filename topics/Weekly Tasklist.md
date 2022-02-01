@@ -3,16 +3,19 @@
 ### Chambers Flat Road:
 
 - [ ] Finish Hydrology mapping for Appendicies section and report figures.
-- [ ] Format the report correctly with proper ID and spacing.
+- [x] Format the report correctly with proper ID and spacing.
+  - [ ] Change the report from preliminary to detailed design 50% in all of the relevant sections.
+  - [ ] Ask Rasitha for the Entire Catchment Polygon.
+  - [ ] Remove all mentions of the School aspect of report and re-write relevant sections.
 - [ ] Receive Culvert Survey from James along with ask questions regarding report. 
 - [ ] Finalize report with figures and incorprate comments into HADR.
 
 ### Cannery Creek Sediment Basin:
 
-- [ ] Complete Afflux mapping for the new model run.
-- [ ] Update the model log with relevant information.
-- [ ] Write blurb regarding what happened, what we changed and the outputs.
-- [ ] Incorprate into email and the technical memo.
+- [x] Complete Afflux mapping for the new model run.
+- [x] Update the model log with relevant information.
+- [x] Write blurb regarding what happened, what we changed and the outputs.
+- [x] Incorprate into email and the technical memo.
 
 ### Cement Mills Bridge Options Analysis:
 
@@ -31,3 +34,4 @@
 ### Miscellaneous Tasks:
 
 - [ ] Create a repository for sample QGIS figures derived from past reports and post it to GitHub.
+- [x] Create a template for RFFE check tool, implement the associated parameters e.g area, longitude/latitude and centroid.
