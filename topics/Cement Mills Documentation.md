@@ -23,3 +23,18 @@ Run Version | Subcatchment Target Size | Comment |
 02 | 20 km2 | The entire catchment was subdivided into too many sections, going to re-calibrate again in Revision 03. | 
 03 | N/A | Entire Catchment was divided into 10 sections originally, the [major catchment](https://github.com/FHydrology/Notetaking/blob/main/images/major.PNG) was divided into 3 based off stream paths and the [minor catchment](https://github.com/FHydrology/Notetaking/blob/main/images/minor.PNG) was divided into 2 using the same logic. [Final catchment delineation.](https://github.com/FHydrology/Notetaking/blob/main/images/final.PNG)
 
+### QGIS: 
+
+- To complete the RFFE confirmation, you'll need to find the centroid of the subcatchment polgon and the associated co-ordinates which is outlined [here.](https://gis.stackexchange.com/questions/45243/how-to-determine-the-centroid-of-polygons#:~:text=A%20centroid%20is%20per%20definition%20a%20point%20layer,Menu%20-%3E%20Geometry%20tools%20-%3E%20Export%2FAdd%20geometry%20columns.) If you encounter problems with the geometry, follow this [guide](https://www.qgistutorials.com/en/docs/3/handling_invalid_geometries.html) on fixing the problem.
+- After fixing the centroid_geometry problem, another problem occured regarding the correct co-ordinate system for the RFFE tool. To solve this, I exported the fixed geometry shape file with the (W84:43256) Projection and then created the longitude and latitude columns in the attribute table using '$x' and '$y' listed [here.](https://gis.stackexchange.com/questions/64535/converting-x-y-coordinates-to-longitude-latitude-using-qgis)
+
+### Excel:
+
+- The key parameters from the Catchment SIM is to get the area, latitude/longititude for the outlet and centroid.
+
+### HEC-SSP
+
+- Streamflow gauge data was aggregated into the peak discharge for each water year starting at the 30th of June. This was based off analysis of the peak discharge events of each year which showed the maximums were occuring frequently in the summer months of the year. [Example](https://github.com/FHydrology/Notetaking/blob/main/images/timeseries.PNG)
+- The next step was to run the series of statistical analysis based off methods presented in HEC-SSP. 
+Method Name | How it works | Comment | 
+--- | --- | --- | 
