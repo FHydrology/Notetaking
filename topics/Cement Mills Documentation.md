@@ -11,7 +11,7 @@ watershed (sub-watershed or catchment) boundaries are based on the topography of
 - The catchment elevation data that was input into CatchmentSim was a STRM 1 second DEM file. **File was STRM_1sec_Cement_Mills.asc**
 - The outlet was determined to be at the downstream section of the bridge. 
 - The catchment was subdivided into 5 different sections. **However, this is subject to change dependent on Evan's advice.**
-- Total Catchment area was 24025.86 km2
+- Total Catchment area was 2402.58 km2
 
 > Tip: Delineation is part of the process know as watershed sementation, i.e., dividing the watershed into discrete land and channel segments to analyze watershed behaviour. The function is to create a boundary that represent the contributing area for a particular control point. 
 
