@@ -16,10 +16,11 @@ The first section was developing the cross sections and flow paths of the river.
 
 | Variables | Value |
 |:---:|:---:| 
-|Bridge Opening[^1] (m) | x |
-| Floodplain Width (m) | x |
-| Overbank n | x |
-| Channel's n | x | 
+|Bridge Opening (m) | ~ 8m (7.67m) |
+| Floodplain Width (m) | ~ 6 - 8 m |
+| Bridge Width (m) | ~ 6 m  | 
+| Overbank n | 0.12 |
+| Channel's n | 0.06 | 
 | Longitudinal Slope S | x | 
 
-[^1] xx
+[1] Assumed the N14 BCC Manning's N Value for Channels found [here.](https://www.brisbane.qld.gov.au/sites/default/files/ncd_appendixc_part3.pdf)
