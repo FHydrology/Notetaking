@@ -15,10 +15,13 @@ watershed (sub-watershed or catchment) boundaries are based on the topography of
 
 > Tip: Delineation is part of the process know as watershed sementation, i.e., dividing the watershed into discrete land and channel segments to analyze watershed behaviour. The function is to create a boundary that represent the contributing area for a particular control point. 
 
+### Catchment SIM Run Log:
+
 Run Version | Subcatchment Target Size | Comment | 
 --- | --- | --- |
-01 | N/A | Used the flow accumulation analysis tool to divide up the catchments. Refer to figures below for example. |
-02 | 20 km2 | 
+01 | N/A | Used the flow accumulation analysis tool to divide up the catchments. Refer to the figures below for an example. |
+02 | 20 km2 | The entire catchment was subdivided into too many sections, going to re-calibrate again in Revision 03. | 
+03 | N/A | Entire Catchment was divided into 10 sections originally, the [major catchment](https://github.com/FHydrology/Notetaking/blob/main/images/major.PNG) was divided into 3 based off stream paths and the [minor catchment](https://github.com/FHydrology/Notetaking/blob/main/images/minor.PNG) was divided into 2 using the same logic. [Final catchment delineation.](https://github.com/FHydrology/Notetaking/blob/main/images/final.PNG)
 
 #### Cement Mills Catchment Delination in CS:
 
