@@ -16,11 +16,23 @@ The first section was developing the cross sections and flow paths of the river.
 
 | Variables | Value |
 |:---:|:---:| 
-|Bridge Opening (m) | ~ 8m (7.67m) |
+|Bridge Width (m) | ~ 8m (7.67m), non-conservative ~ 9m|
 | Floodplain Width (m) | ~ 6 - 8 m |
-| Bridge Width (m) | ~ 6 m  | 
+| Bridge Opening (m) | ~ 6 m  | 
 | Overbank n | 0.12 |
 | Channel's n | 0.06 | 
-| Longitudinal Slope S | x | 
+| Longitudinal Slope S | 0.02 | 
+| Overbank n / Channel n | 2 |
+| Bridge Opening / Floodplain Width | x |
 
 [1] Assumed the N14 BCC Manning's N Value for Channels found [here.](https://www.brisbane.qld.gov.au/sites/default/files/ncd_appendixc_part3.pdf)
+
+| Culvert Parameters | Value |
+|:---:|:---:| 
+| Culvert Length | x | 
+| Diameter | x | 
+| Entrance Loss Coefficient [1] | 0.5 | 
+| Culvert's Manning (no debris) | 0.011 | 
+| Culvert's Manning (some debris) | 0.013 | 
+
+[1]. Assumed Square Cut end of pipe.
