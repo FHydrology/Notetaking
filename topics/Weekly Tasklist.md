@@ -20,16 +20,16 @@
 ### Cement Mills Bridge Options Analysis:
 
 - [ ] Complete Catchment Delineation and RFFE regional confirmation check:
-  - [ ] Develop a Catchment Simulation model with the limited LIDAR.
-  - [ ] Certify the catchment and extract the Area/Centroid & Co-ordinates of the model.
+  - [x] Develop a Catchment Simulation model with the limited LIDAR.
+  - [x] Certify the catchment and extract the Area/Centroid & Co-ordinates of the model.
   - [ ] Create spreadsheet for the RFFE outputs for the desired amount of catchments.
-  - [ ] Make sure to document all of these with the rational behind them along with keeping notes.
+  - [x] Make sure to document all of these with the rational behind them along with keeping notes.
 
 ### Sommerset Erosion Design Case:
-- [ ] Develop the 2D HEC-RAS model with the incorporation of all of Waseh's instructions.
-- [ ] Finding the Manning's value for the underlying terrain that the model is based off.
-- [ ] Calculate the flow from XP-RAFTs and input it into HEC-RAS
-- [ ] Calibrate model with the help of Waseh. Document changes and rationale behind them. 
+- [X] Develop the 2D HEC-RAS model with the incorporation of all of Waseh's instructions.
+- [X] Finding the Manning's value for the underlying terrain that the model is based off.
+- [X] Calculate the flow from XP-RAFTs and input it into HEC-RAS
+- [x] Calibrate model with the help of Waseh. Document changes and rationale behind them. 
 
 ### Miscellaneous Tasks:
 
