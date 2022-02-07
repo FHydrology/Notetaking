@@ -28,6 +28,15 @@ Run Version | Subcatchment Target Size | Comment |
 - To complete the RFFE confirmation, you'll need to find the centroid of the subcatchment polgon and the associated co-ordinates which is outlined [here.](https://gis.stackexchange.com/questions/45243/how-to-determine-the-centroid-of-polygons#:~:text=A%20centroid%20is%20per%20definition%20a%20point%20layer,Menu%20-%3E%20Geometry%20tools%20-%3E%20Export%2FAdd%20geometry%20columns.) If you encounter problems with the geometry, follow this [guide](https://www.qgistutorials.com/en/docs/3/handling_invalid_geometries.html) on fixing the problem.
 - After fixing the centroid_geometry problem, another problem occured regarding the correct co-ordinate system for the RFFE tool. To solve this, I exported the fixed geometry shape file with the (W84:43256) Projection and then created the longitude and latitude columns in the attribute table using '$x' and '$y' listed [here.](https://gis.stackexchange.com/questions/64535/converting-x-y-coordinates-to-longitude-latitude-using-qgis)
 
+1. Export from CS
+2. Check Validity of Catchment
+3. Fix Geometries
+4. Create Centroid Polygon
+5. Export file with new projection
+6. Add geometry attributes which will give lat/long.
+7. Change the outlet positions based off the flow paths.
+8. Export the re-calibrated layer into the W94 projection
+9. Add the geometry attributes column to get x-y columns for RFFE tool.
 ### Excel:
 
 - The key parameters from the Catchment SIM is to get the area, latitude/longititude for the outlet and centroid.
@@ -36,9 +45,4 @@ Run Version | Subcatchment Target Size | Comment |
 
 - Streamflow gauge data was aggregated into the peak discharge for each water year starting at the 30th of June. This was based off analysis of the peak discharge events of each year which showed the maximums were occuring frequently in the summer months of the year. [Example](https://github.com/FHydrology/Notetaking/blob/main/images/timeseries.PNG)
 - The next step was to run the series of statistical analysis based off methods presented in HEC-SSP. 
-
-Method Name: | How it works: | Comment: | 
-|:---:|:---:|:---:| 
-17B | | |
-17C | | |
-GFA: Pareto | | Water Year - June 30th, default values, no log transform. The fitted curve had negative values and outliers noted in the last 5 years of the timeseries (Rank 30-35th). | 
+noted in the last 5 years of the timeseries (Rank 30-35th). | 
