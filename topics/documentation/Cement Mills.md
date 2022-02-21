@@ -46,3 +46,23 @@ Run Version | Subcatchment Target Size | Comment |
 - Streamflow gauge data was aggregated into the peak discharge for each water year starting at the 30th of June. This was based off analysis of the peak discharge events of each year which showed the maximums were occuring frequently in the summer months of the year. [Example](https://github.com/FHydrology/Notetaking/blob/main/images/timeseries.PNG)
 - The next step was to run the series of statistical analysis based off methods presented in HEC-SSP. 
 noted in the last 5 years of the timeseries (Rank 30-35th). | 
+
+
+
+
+### HEC-Ras Model:
+
+#### Brainstorm for intial part of the modelling stage.
+    - The model is going to be a 1D, Steady-State HEC-Ras Model.
+    - Creek morphology in the area of interest suggests that flows remain contained in a reasonably deep and well-defined channel (ie. limited to no floodplain, or transverse flow breakouts), making a 1D model an appropriate choice. 
+
+### Existing Case Results:
+    - Flood Depths (standard flood depths with contours derived from the h_max and results from d_max)
+    - Velocities (standard velocity mapping and colouring, v_max)
+
+### Design Case Results:
+    - Flood Depths 
+    - Velocities 
+    - Afflux 
+
+
