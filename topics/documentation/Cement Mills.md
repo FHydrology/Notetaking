@@ -46,10 +46,6 @@ Run Version | Subcatchment Target Size | Comment |
 - Streamflow gauge data was aggregated into the peak discharge for each water year starting at the 30th of June. This was based off analysis of the peak discharge events of each year which showed the maximums were occuring frequently in the summer months of the year. [Example](https://github.com/FHydrology/Notetaking/blob/main/images/timeseries.PNG)
 - The next step was to run the series of statistical analysis based off methods presented in HEC-SSP. 
 noted in the last 5 years of the timeseries (Rank 30-35th). | 
-
-
-
-
 ### HEC-Ras Model:
 
 #### Brainstorm for intial part of the modelling stage.
@@ -57,12 +53,26 @@ noted in the last 5 years of the timeseries (Rank 30-35th). |
     - Creek morphology in the area of interest suggests that flows remain contained in a reasonably deep and well-defined channel (ie. limited to no floodplain, or transverse flow breakouts), making a 1D model an appropriate choice. 
 
 ### Existing Case Results:
+    - Events (10%,5%, 2%, 1% and 0.05% AEP)
     - Flood Depths (standard flood depths with contours derived from the h_max and results from d_max)
     - Velocities (standard velocity mapping and colouring, v_max)
 
 ### Design Case Results:
+    - Events (10%,5%, 2%, 1% and 0.05% AEP)
     - Flood Depths 
     - Velocities 
-    - Afflux 
+    - Afflux (Design Case 1 and Design Case 2)
+
+### Total Results:
+    - 5 existing depths and velocities (10 in total)
+    - 15 for each design case (30 in total)
+    - 40 Total Maps 
 
 
+### Python 
+    - Import the hydrology streamflow data.
+    - Clean it into standarized format.
+    - Create a new variable that re-arranges the data into the new range based off water year.
+    - Graph the data based off the water year range.
+    - Create a table of maximums from each year range. 
+    - Graph the streamflow maximums based of the data range.

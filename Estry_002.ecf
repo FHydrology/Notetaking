@@ -1,0 +1,34 @@
+
+! 1D Network
+Read GIS Network == ..\..\GIS\1d_nwk_culverts.mif
+Read GIS Network == ..\..\GIS\1d_nwk_stormwater_pipe.mif
+
+Read GIS Network == ..\..\GIS\1d_nwk_pits.mif
+Pit Inlet Database == ..\Pits\pit_dbase.csv
+Pit Search Distance == 2
+
+Read GIS Network == ..\..\GIS\1d_nwk_Diversions.mif
+Read GIS Table Links == ..\..\GIS\1d_xs_rds.MIF
+Read GIS Table Links == ..\..\GIS\1d_na\1d_na.MIF
+
+! Addition of Pump Network 
+
+Read GIS Network == ..\..\GIS\1d_nwk_pipe_001_P.shp
+Read GIS Network == ..\..\GIS\1d_nwk_pump_001_L.shp
+Depth Discharge Database == ..\bc_dbase_pump.csv
+Read Operating Controls File == 
+
+
+Minimum NA == 4 !Provide 1D nodes with additional nodal area for improved structure stability
+
+Read GIS BC == ..\..\GIS\1d_bc_pipe_inflow.mif
+Read GIS BC == ..\..\GIS\1d_bc_TW.mif
+
+! RUN PARAMETERS
+Start Output == 0  ! start output at XX hours
+Output Interval (s) == 60  ! output 1D results every XX seconds
+
+! Dev Mods
+
+Read GIS Network == ..\..\GIS\1d_nwk_culverts_Dev_002.mif
+Read GIS Network == ..\..\GIS\1d_nwk_pits_De.mif
